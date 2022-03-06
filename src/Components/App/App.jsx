@@ -10,8 +10,7 @@ function App() {
           borderBottom: 'solid 1px',
           paddingBottom: '1rem',
         }}>
-        <Link to='/invoices'>Invoices</Link> |{' '}
-        <Link to='/expenses'>Expenses</Link>
+        <Link to='/about'>About</Link> | <Link to='/contact'>Contact</Link>
       </nav>
     </div>
   );
