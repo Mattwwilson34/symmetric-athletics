@@ -1,17 +1,10 @@
 import './App.css';
-import { Link } from 'react-router-dom';
+import Nav from '../Nav/Nav';
 
 function App() {
   return (
     <div className='App'>
-      <h1>Bookkeeper</h1>
-      <nav
-        style={{
-          borderBottom: 'solid 1px',
-          paddingBottom: '1rem',
-        }}>
-        <Link to='/about'>About</Link> | <Link to='/contact'>Contact</Link>
-      </nav>
+      <Nav />
     </div>
   );
 }
