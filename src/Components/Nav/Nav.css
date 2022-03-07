@@ -1,39 +1,55 @@
 :root {
-  --navBackground: #04080f;
   --logo: #507dbc;
 }
 
 .Nav {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  /* padding: 0.5rem 1rem; */
-  background-color: var(--navBackground);
+  grid-template-columns: repeat(2, 1fr);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 1.1rem 0;
+  background-color: white;
 }
 
 .Nav > .Nav_Logo_Container {
   display: inline-block;
-  grid-column: 1 / span 3;
+  grid-column: 1 / 1;
   justify-self: start;
+  padding-left: 1rem;
 }
+
+.Nav > .Nav_Logo_Container:hover {
+  border: 3px solid transparent;
+}
+
 .Nav_Logo_SVG {
-  height: 3rem;
-  width: 3rem;
+  height: 2rem;
+  width: 2rem;
   filter: invert(51%) sepia(13%) saturate(1753%) hue-rotate(176deg)
     brightness(90%) contrast(95%);
 }
 
 .Nav_Logo_Text {
-  font-size: 3rem;
+  font-size: 2rem;
+}
+
+.Nav_Link_Container {
+  display: flex;
+  margin-top: auto;
+  gap: 3rem;
+  justify-content: center;
 }
 
 .Nav a {
-  color: white;
-  font-size: 2.5rem;
+  display: block;
+  color: black;
+  font-size: 1.5rem;
   text-decoration: none;
-  justify-self: start;
-  align-self: baseline;
+  border: 3px solid transparent;
 }
 
 .Nav a:hover {
   color: var(--logo);
+  border-bottom: 3px solid var(--logo);
 }

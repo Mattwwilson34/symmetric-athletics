@@ -1,0 +1,54 @@
+:root {
+  --logo: #507dbc;
+}
+
+.Hero_Container {
+  background-image: url('../../Images/sven-mieke-jO6vBWX9h9Y-unsplash.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  filter: brightness(0.6);
+}
+
+.Hero_Text {
+  text-align: left;
+  position: absolute;
+  font-size: 2rem;
+  top: 50%;
+  left: 30%;
+  max-width: 35rem;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.Hero_Text p {
+  font-size: 1.5rem;
+}
+
+.Hero_Text button {
+  font-size: 1.5rem;
+  border-style: none;
+  background-color: var(--logo);
+  color: white;
+  border-radius: 16px;
+  padding: 1rem;
+  border: 2px solid transparent;
+  transition: ease 0.25s;
+}
+
+.Hero_Text button:hover {
+  opacity: 1;
+  background-color: black;
+  color: var(--logo);
+  border: 2px solid var(--logo);
+  cursor: pointer;
+}

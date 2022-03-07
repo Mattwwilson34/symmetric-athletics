@@ -11,9 +11,11 @@ const Nav = () => {
           Athletics
         </span>
       </Link>
-      <Link to='about'>About</Link>
-      <Link to='contact'>Contact</Link>
-      <Link to='scedule'>Schedule</Link>
+      <div className='Nav_Link_Container'>
+        <Link to='about'>About</Link>
+        <Link to='contact'>Contact</Link>
+        <Link to='scedule'>Schedule</Link>
+      </div>
     </nav>
   );
 };
