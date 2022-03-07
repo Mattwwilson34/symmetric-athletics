@@ -53,6 +53,39 @@
 }
 
 /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 760px) {
+  .Nav {
+    padding: 1rem 0;
+  }
+
+  .Nav_Logo_Text {
+    font-size: 1.5rem;
+  }
+
+  .Nav a {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Nav {
+    justify-content: center;
+    padding: 1rem 0;
+  }
+
+  .Nav_Logo_Text {
+    font-size: 1.5rem;
+  }
+
+  .Nav a {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 400px) {
   .Nav_Logo_Text {
     font-size: 1.5rem;
@@ -60,5 +93,6 @@
 
   .Nav a {
     font-size: 1.25rem;
+    margin-top: 0.5rem;
   }
 }
