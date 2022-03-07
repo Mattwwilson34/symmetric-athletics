@@ -53,8 +53,12 @@
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .nav {
-    width: 100%;
+@media only screen and (max-width: 400px) {
+  .Nav_Logo_Text {
+    font-size: 1.5rem;
+  }
+
+  .Nav a {
+    font-size: 1.25rem;
   }
 }
