@@ -34,15 +34,6 @@ function App() {
           sed ex facilisis vestibulum nisl, dolor phasellus finibus mauris
           auctor non nec proin tincidunt.
         </p>
-        <p>
-          Fermentum sem vitae erat magna cubilia habitant imperdiet mauris
-          torquent interdum convallis elementum vulputate curabitur amet duis
-          ligula, quam mi sapien inceptos eu ipsum dictumst tincidunt aenean nec
-          viverra malesuada cras urna aptent tellus. Montes amet facilisis
-          placerat tincidunt litora aliquam porttitor tempus dictum nisl et
-          bibendum platea, pulvinar tristique ante morbi fames mattis habitasse
-          posuere lacus condimentum molestie tempor.
-        </p>
         <button>ABOUT US</button>
       </section>
       <section className='What_We_Do'>
