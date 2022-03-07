@@ -4,16 +4,14 @@
 
 .Nav {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  position: fixed;
   width: 100%;
+  grid-template-columns: repeat(2, 1fr);
   z-index: 999;
   padding: 1.1rem 0;
   background-color: white;
 }
 
 .Nav > .Nav_Logo_Container {
-  display: inline-block;
   grid-column: 1 / 1;
   justify-self: start;
   padding-left: 1rem;
@@ -52,4 +50,11 @@
 .Nav a:hover {
   color: var(--logo);
   border-bottom: 3px solid var(--logo);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .nav {
+    width: 100%;
+  }
 }
