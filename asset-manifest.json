@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/symmetric-athletics/static/css/main.fc2528f2.css",
+    "main.css": "/symmetric-athletics/static/css/main.5070e306.css",
     "main.js": "/symmetric-athletics/static/js/main.e6a53600.js",
     "static/media/sven-mieke-jO6vBWX9h9Y-unsplash.jpg": "/symmetric-athletics/static/media/sven-mieke-jO6vBWX9h9Y-unsplash.ea68f5de8eaaf281cffa.jpg",
     "static/media/Friends.jpeg": "/symmetric-athletics/static/media/Friends.6ec0725929731e8a9f63.jpeg",
@@ -10,11 +10,11 @@
     "static/media/Roboto-Medium.ttf": "/symmetric-athletics/static/media/Roboto-Medium.7429a63c09f79a1760b0.ttf",
     "static/media/logo.svg": "/symmetric-athletics/static/media/logo.8a843cea8bb48f39c24bfb68edb9ddf7.svg",
     "index.html": "/symmetric-athletics/index.html",
-    "main.fc2528f2.css.map": "/symmetric-athletics/static/css/main.fc2528f2.css.map",
+    "main.5070e306.css.map": "/symmetric-athletics/static/css/main.5070e306.css.map",
     "main.e6a53600.js.map": "/symmetric-athletics/static/js/main.e6a53600.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc2528f2.css",
+    "static/css/main.5070e306.css",
     "static/js/main.e6a53600.js"
   ]
 }
