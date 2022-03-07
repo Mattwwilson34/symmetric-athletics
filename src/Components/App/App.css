@@ -75,7 +75,7 @@
 
 .What_We_Do_Image1,
 .What_We_Do_Image2 {
-  width: 400px;
+  width: 100%;
   margin-bottom: 1rem;
 }
 
@@ -89,7 +89,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30rem;
+  width: clamp(20rem, 25rem, 30rem);
   background: whitesmoke;
   padding: 2rem;
   z-index: 10;
