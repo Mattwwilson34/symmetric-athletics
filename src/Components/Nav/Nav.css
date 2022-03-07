@@ -3,17 +3,17 @@
 }
 
 .Nav {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 100%;
-  grid-template-columns: repeat(2, 1fr);
   z-index: 999;
   padding: 1.1rem 0;
+  padding-right: 3rem;
   background-color: white;
 }
 
 .Nav > .Nav_Logo_Container {
-  grid-column: 1 / 1;
-  justify-self: start;
   padding-left: 1rem;
 }
 

@@ -9,7 +9,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  z-index: -1;
 
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
@@ -21,10 +20,10 @@
 
 .Hero_Text {
   text-align: left;
-  position: absolute;
+  position: relative;
   font-size: 2rem;
-  top: 50%;
-  left: 30%;
+  bottom: 400px;
+  left: 40%;
   max-width: 35rem;
   transform: translate(-50%, -50%);
   color: white;
@@ -51,4 +50,31 @@
   color: var(--logo);
   border: 2px solid var(--logo);
   cursor: pointer;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 780px) {
+  .Hero_Text {
+    left: 45%;
+    max-width: 30rem;
+    font-size: 1.75rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Hero_Text {
+    left: 50%;
+    max-width: 25rem;
+    font-size: 1.5rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 430px) {
+  .Hero_Text {
+    left: 50%;
+    max-width: 18rem;
+    font-size: 1.5rem;
+  }
 }
