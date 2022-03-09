@@ -1,3 +1,4 @@
+import './LandingPageMission.css';
 import Friends from '../../Images/Friends.jpeg';
 
 function LandingPageMission() {

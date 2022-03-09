@@ -1,0 +1,29 @@
+.Mission {
+  background-color: #04080f;
+  color: white;
+  padding: 5rem;
+  line-height: 1.75rem;
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+.Mission_Container button {
+  padding: 1rem;
+  background-color: var(--logo);
+  border-radius: 1rem;
+  border: 3px solid transparent;
+  transition: ease 0.5s;
+}
+
+.Mission_Container button:hover {
+  border: 3px solid var(--logo);
+  color: white;
+  background-color: #04080f;
+  cursor: pointer;
+}
+
+.Mission img {
+  width: 50rem;
+  border-radius: 1rem;
+}
