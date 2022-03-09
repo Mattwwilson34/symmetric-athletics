@@ -16,19 +16,27 @@ function LandingPageResults() {
           <ul>
             <li>
               <span className='Results_Bullet'></span>UNC Dark Side{' '}
-              <span>(National Champions 2021)</span>
+              <span className='Results_Bullet_Text'>
+                (National Champions 2021)
+              </span>
             </li>
             <li>
               <span className='Results_Bullet'></span>UNC Pleades{' '}
-              <span>(National Champions 2021)</span>
+              <span className='Results_Bullet_Text'>
+                (National Champions 2021)
+              </span>
             </li>
             <li>
               <span className='Results_Bullet'></span>Carolina Flyers{' '}
-              <span>(National Champions 2021)</span>
+              <span className='Results_Bullet_Text'>
+                (National Champions 2021)
+              </span>
             </li>
             <li>
               <span className='Results_Bullet'></span>Durham Toro{' '}
-              <span>(National Contender 2017-2021)</span>
+              <span className='Results_Bullet_Text'>
+                (National Contender 2017-2021)
+              </span>
             </li>
           </ul>
         </div>

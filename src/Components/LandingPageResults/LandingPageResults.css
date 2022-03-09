@@ -5,7 +5,7 @@
 .Results {
   display: flex;
   justify-content: center;
-  padding: 12rem;
+  padding: 6rem;
 }
 
 .Results_Container {
@@ -17,12 +17,32 @@
 }
 
 .Results_Container h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 0;
 }
 
 .Results_Container p {
+  font-size: 1.5rem;
   line-height: 1.75rem;
+}
+
+.Results_Bullet {
+  display: inline-block;
+  border-radius: 10px;
+  margin-right: 0.5rem;
+  height: 15px;
+  width: 15px;
+  background-color: var(--logo);
+}
+
+.Results_Container ul {
+  text-align: left;
+}
+
+.Results_Container ul li {
+  list-style: none;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .Results_Container img {
