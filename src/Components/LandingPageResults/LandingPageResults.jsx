@@ -7,16 +7,31 @@ function LandingPageResults() {
       <div className='Results_Container'>
         <h2>GETTING RESULTS SINCE 2021</h2>
         <p>
-          Dictumst dignissim accumsan elit nisi aenean interdum ac nulla mus
-          elementum amet tempus, vivamus finibus parturient nunc dis augue
-          sollicitudin aliquet lectus natoque. Facilisi morbi maximus dictum
-          augue varius mauris accumsan netus eu conubia, phasellus sociosqu
-          curae nec platea erat ipsum vitae eleifend. Mauris inceptos tortor
-          velit gravida ligula aliquet malesuada turpis facilisis justo risus
-          blandit nulla tempus maecenas conubia himenaeos, quisque platea
-          imperdiet pellentesque litora scelerisque penatibus sagittis iaculis
-          dictum a ante sollicitudin ultrices quam.
+          Move by Design has been helping athletes maximize their potential
+          since its inception in 2021. Atheltes who have found success with Move
+          by Design have played for national and word chanmpion sports teams
+          including:
         </p>
+        <div className='Results_List_Container'>
+          <ul>
+            <li>
+              <span className='Results_Bullet'></span>UNC Dark Side{' '}
+              <span>(National Champions 2021)</span>
+            </li>
+            <li>
+              <span className='Results_Bullet'></span>UNC Pleades{' '}
+              <span>(National Champions 2021)</span>
+            </li>
+            <li>
+              <span className='Results_Bullet'></span>Carolina Flyers{' '}
+              <span>(National Champions 2021)</span>
+            </li>
+            <li>
+              <span className='Results_Bullet'></span>Durham Toro{' '}
+              <span>(National Contender 2017-2021)</span>
+            </li>
+          </ul>
+        </div>
         <img src={DeanSled} alt='Dean Sled'></img>
       </div>
     </section>

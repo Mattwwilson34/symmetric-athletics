@@ -5,7 +5,7 @@
     brightness(90%) contrast(95%);
   opacity: 0.25;
   position: absolute;
-  right: -100px;
+  right: 18rem;
 }
 
 .What_We_Do {
@@ -83,13 +83,21 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 430px) {
   .What_We_Do_Hero_Logo {
-    height: 20rem;
-    width: 20rem;
+    height: 10rem;
+    width: 10rem;
     filter: invert(51%) sepia(13%) saturate(1753%) hue-rotate(176deg)
       brightness(90%) contrast(95%);
-    opacity: 0.2;
+    opacity: 0.3;
     position: absolute;
-    right: -100px;
+    top: 115.5rem;
+    right: 0rem;
+  }
+
+  .Card_Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
   }
 
   .Card h3 {
