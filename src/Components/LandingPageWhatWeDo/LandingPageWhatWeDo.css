@@ -45,7 +45,7 @@
 .Card_Container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   gap: 8rem;
 }
 
@@ -53,7 +53,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: clamp(20rem, 25rem, 30rem);
+  width: clamp(20rem, 30rem, 40rem);
   background: whitesmoke;
   padding: 2rem;
   z-index: 10;
@@ -70,4 +70,35 @@
 .Card a {
   display: block;
   margin-top: auto;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 780px) {
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 430px) {
+  .What_We_Do_Hero_Logo {
+    height: 20rem;
+    width: 20rem;
+    filter: invert(51%) sepia(13%) saturate(1753%) hue-rotate(176deg)
+      brightness(90%) contrast(95%);
+    opacity: 0.2;
+    position: absolute;
+    right: -100px;
+  }
+
+  .Card h3 {
+    margin-top: 0;
+    font-size: 0.75rem;
+  }
+
+  .Card p {
+    font-size: 0.6rem;
+    line-height: 1rem;
+  }
 }
