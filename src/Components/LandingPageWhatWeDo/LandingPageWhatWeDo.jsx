@@ -3,7 +3,7 @@ import logo from '../../Icons/logo.svg';
 import image2 from '../../Images/image2.jpg';
 import Dean from '../../Images/Dean.jpeg';
 
-function WhatWeDo() {
+function LandingPageWhatWeDo() {
   return (
     <section className='What_We_Do'>
       <div className='What_We_Do_Hero'>
@@ -54,4 +54,4 @@ function WhatWeDo() {
   );
 }
 
-export default WhatWeDo;
+export default LandingPageWhatWeDo;
