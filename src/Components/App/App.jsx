@@ -1,8 +1,9 @@
 import './App.css';
 import { Link } from 'react-router-dom';
 import Nav from '../Nav/Nav';
-import Footer from '../Footer/Footer';
 import Hero from '../Hero/Hero';
+import LandingPageDescription from '../LandingPageDescription/LandingPageDescription';
+import Footer from '../Footer/Footer';
 import logo from '../../Icons/logo.svg';
 import image2 from '../../Images/image2.jpg';
 import Dean from '../../Images/Dean.jpeg';
@@ -14,29 +15,7 @@ function App() {
     <div className='App'>
       <Nav />
       <Hero></Hero>
-      <section className='Description'>
-        <h3>IT'S TIME TO REACH YOUR FULL POTENTIAL</h3>
-        <p>
-          Lacus lacinia bibendum ex porttitor laoreet fermentum torquent, primis
-          vestibulum neque in varius praesent, duis justo dictumst interdum sit
-          pharetra.
-        </p>
-        <p>
-          Luctus massa ligula quisque aliquam sapien curae maecenas at, rutrum
-          scelerisque senectus gravida nunc dapibus metus, varius ipsum mollis
-          sem elit eu volutpat. Risus ultrices lacinia maecenas nibh facilisi
-          id, habitasse arcu at tortor sagittis nullam, feugiat eu laoreet in
-          penatibus.
-        </p>
-        <p>
-          Ultrices massa malesuada lectus ex hac pretium quis sagittis, fames at
-          donec sem tempor posuere porttitor proin molestie, ac ad ipsum
-          vehicula ante felis dapibus. Eget libero lorem vitae ac turpis aptent
-          sed ex facilisis vestibulum nisl, dolor phasellus finibus mauris
-          auctor non nec proin tincidunt.
-        </p>
-        <button>ABOUT US</button>
-      </section>
+      <LandingPageDescription></LandingPageDescription>
       <section className='What_We_Do'>
         <div className='What_We_Do_Hero'>
           <img className='What_We_Do_Hero_Logo' src={logo} alt='logo'></img>

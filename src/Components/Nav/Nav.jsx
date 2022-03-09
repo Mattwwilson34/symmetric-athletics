@@ -7,8 +7,8 @@ const Nav = () => {
     <nav className='Nav'>
       <Link className='Nav_Logo_Container' to='/'>
         <span className='Nav_Logo_Text'>
-          <img className='Nav_Logo_SVG' src={logo} alt='logo'></img>Symmetric
-          Athletics
+          <img className='Nav_Logo_SVG' src={logo} alt='logo'></img>Move By
+          Design
         </span>
       </Link>
       <div className='Nav_Link_Container'>
