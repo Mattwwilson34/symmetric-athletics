@@ -1,6 +1,7 @@
 import './App.css';
 import { Link } from 'react-router-dom';
 import Nav from '../Nav/Nav';
+import Footer from '../Footer/Footer';
 import Hero from '../Hero/Hero';
 import logo from '../../Icons/logo.svg';
 import image2 from '../../Images/image2.jpg';
@@ -122,35 +123,7 @@ function App() {
         </div>
         <img src={Friends} alt='Friends'></img>
       </section>
-      <section className='Footer'>
-        <div>
-          <h4>Services</h4>
-          <Link to='/'>To somewhere</Link>
-          <Link to='/'>To somewhere</Link>
-          <Link to='/'>To somewhere</Link>
-          <Link to='/'>To somewhere</Link>
-        </div>
-        <div>
-          <h4>Company</h4>
-          <Link to='/'>To somewhere</Link>
-          <Link to='/'>To somewhere</Link>
-        </div>
-        <div>
-          <h4>Support</h4>
-          <Link to='/'>To somewhere</Link>
-          <Link to='/'>To somewhere</Link>
-          <Link to='/'>To somewhere</Link>
-        </div>
-        <div>
-          <h4>Address</h4>
-          <Link to='/'>To somewhere</Link>
-          <Link to='/'>To somewhere</Link>
-          <Link to='/'>To somewhere</Link>
-          <Link to='/'>To somewhere</Link>
-          <Link to='/'>To somewhere</Link>
-          <Link to='/'>To somewhere</Link>
-        </div>
-      </section>
+      <Footer></Footer>
     </div>
   );
 }
