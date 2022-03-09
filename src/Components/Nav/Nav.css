@@ -70,11 +70,6 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .Nav {
-    justify-content: center;
-    padding: 0 1rem;
-  }
-
   .Nav_Logo_Text {
     font-size: 1.5rem;
   }
@@ -87,6 +82,11 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 400px) {
+  .Nav {
+    justify-content: center;
+    padding: 0 0 0.5rem 0;
+  }
+
   .Nav_Logo_Container {
     padding-top: 0;
   }

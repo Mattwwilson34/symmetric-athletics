@@ -76,7 +76,8 @@
 @media only screen and (max-width: 430px) {
   .Hero_Text {
     left: 40%;
+    top: 57%;
     max-width: 20rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
