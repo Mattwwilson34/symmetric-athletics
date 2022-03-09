@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './LandingPageWhatWeDo.css';
 import logo from '../../Icons/logo.svg';
-import image2 from '../../Images/image2.jpg';
+import personalTrainingImg from '../../Images/man-boxer-weights.jpg';
 import Dean from '../../Images/Dean.jpeg';
 
 function LandingPageWhatWeDo() {
@@ -25,26 +25,23 @@ function LandingPageWhatWeDo() {
               <img className='What_We_Do_Image1' src={Dean} alt='image1'></img>
               <h3>MEET YOUR PERSONAL TRAINER</h3>
               <p>
-                Nec metus nisl in pulvinar sem dictumst fringilla vel vehicula
-                class pretium, massa ipsum vitae habitant at mattis inceptos
-                habitasse purus. Neque ridiculus nibh vitae aenean cursus tempor
-                finibus mauris habitant ut imperdiet varius, etiam nascetur
-                dictumst sodales diam donec feugiat rhoncus quam fames volutpat.
+                Dean Culver is a certified strenght and conditioning specialist
+                and professional athlete with over 15 years of experience
+                helping athletes in a multitude of areanas recognize and reach
+                their full athletic potential.
               </p>
               <Link to='/'>LEARN MORE</Link>
             </div>
             <div className='Card'>
               <img
                 className='What_We_Do_Image2'
-                src={image2}
+                src={personalTrainingImg}
                 alt='image2'></img>
-              <h3>1-ON-1 STICK FIGHTING</h3>
+              <h3>1-ON-1 Personal Training</h3>
               <p>
-                Nec metus nisl in pulvinar sem dictumst fringilla vel vehicula
-                class pretium, massa ipsum vitae habitant at mattis inceptos
-                habitasse purus. Neque ridiculus nibh vitae aenean cursus tempor
-                finibus mauris habitant ut imperdiet varius, etiam nascetur
-                dictumst sodales diam donec feugiat rhoncus quam fames volutpat.
+                All of Move by Design's programs and packages consist of one on
+                one training sessions with currated sport specific periodization
+                focused on helping you perform your best when it matters most.
               </p>
               <Link to='/'>LEARN MORE</Link>
             </div>

@@ -45,6 +45,7 @@
 .Card_Container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 8rem;
 }
 
@@ -64,4 +65,9 @@
 
 .Card h3 {
   margin-bottom: 0;
+}
+
+.Card a {
+  display: block;
+  margin-top: auto;
 }
