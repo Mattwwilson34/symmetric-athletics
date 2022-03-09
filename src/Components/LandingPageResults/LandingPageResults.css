@@ -2,13 +2,12 @@
   display: flex;
   justify-content: center;
   padding: 12rem;
-  height: 50rem;
 }
 
 .Results_Container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   max-width: 80ch;
   text-align: center;
 }
@@ -24,4 +23,35 @@
 
 .Results_Container img {
   border-radius: 1rem;
+  width: 40rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 780px) {
+  .Results_Container img {
+    border-radius: 1rem;
+    width: 30rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Results_Container img {
+    border-radius: 1rem;
+    width: 25rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 430px) {
+  .Results {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 12rem;
+  }
+
+  .Results_Container img {
+    border-radius: 1rem;
+    width: 20rem;
+  }
 }
