@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/symmetric-athletics/static/css/main.31c536cd.css",
-    "main.js": "/symmetric-athletics/static/js/main.7b936026.js",
+    "main.css": "/symmetric-athletics/static/css/main.cca436a1.css",
+    "main.js": "/symmetric-athletics/static/js/main.34978d10.js",
     "static/media/sven-mieke-jO6vBWX9h9Y-unsplash.jpg": "/symmetric-athletics/static/media/sven-mieke-jO6vBWX9h9Y-unsplash.ea68f5de8eaaf281cffa.jpg",
     "static/media/Friends.jpeg": "/symmetric-athletics/static/media/Friends.6ec0725929731e8a9f63.jpeg",
     "static/media/Dean-Sled.jpeg": "/symmetric-athletics/static/media/Dean-Sled.07d0709b7d21098654cb.jpeg",
@@ -10,11 +10,11 @@
     "static/media/Roboto-Medium.ttf": "/symmetric-athletics/static/media/Roboto-Medium.7429a63c09f79a1760b0.ttf",
     "static/media/logo.svg": "/symmetric-athletics/static/media/logo.8a843cea8bb48f39c24bfb68edb9ddf7.svg",
     "index.html": "/symmetric-athletics/index.html",
-    "main.31c536cd.css.map": "/symmetric-athletics/static/css/main.31c536cd.css.map",
-    "main.7b936026.js.map": "/symmetric-athletics/static/js/main.7b936026.js.map"
+    "main.cca436a1.css.map": "/symmetric-athletics/static/css/main.cca436a1.css.map",
+    "main.34978d10.js.map": "/symmetric-athletics/static/js/main.34978d10.js.map"
   },
   "entrypoints": [
-    "static/css/main.31c536cd.css",
-    "static/js/main.7b936026.js"
+    "static/css/main.cca436a1.css",
+    "static/js/main.34978d10.js"
   ]
 }
