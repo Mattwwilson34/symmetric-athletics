@@ -1,0 +1,27 @@
+.Results {
+  display: flex;
+  justify-content: center;
+  padding: 12rem;
+  height: 50rem;
+}
+
+.Results_Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 80ch;
+  text-align: center;
+}
+
+.Results_Container h2 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.Results_Container p {
+  line-height: 1.75rem;
+}
+
+.Results_Container img {
+  border-radius: 1rem;
+}

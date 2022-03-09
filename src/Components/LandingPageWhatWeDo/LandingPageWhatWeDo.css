@@ -1,0 +1,67 @@
+.What_We_Do_Hero_Logo {
+  height: 35rem;
+  width: 35rem;
+  filter: invert(51%) sepia(13%) saturate(1753%) hue-rotate(176deg)
+    brightness(90%) contrast(95%);
+  opacity: 0.25;
+  position: absolute;
+  right: -100px;
+}
+
+.What_We_Do {
+  height: auto;
+}
+
+.What_We_Do_Hero {
+  background-color: #04080f;
+  padding: 2rem;
+}
+
+.What_We_Do_Wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 70rem;
+  margin: auto;
+}
+
+.What_We_Do_Text {
+  color: white;
+  max-width: 50ch;
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.What_We_Do_Text h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.What_We_Do_Image1,
+.What_We_Do_Image2 {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.Card_Container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8rem;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: clamp(20rem, 25rem, 30rem);
+  background: whitesmoke;
+  padding: 2rem;
+  z-index: 10;
+  line-height: 1.75rem;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.Card h3 {
+  margin-bottom: 0;
+}

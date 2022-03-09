@@ -1,3 +1,4 @@
+import './LandingPageResults.css';
 import DeanSled from '../../Images/Dean-Sled.jpeg';
 
 function LandingPageResults() {

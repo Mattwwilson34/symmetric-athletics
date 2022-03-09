@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import './LandingPageWhatWeDo.css';
 import logo from '../../Icons/logo.svg';
 import image2 from '../../Images/image2.jpg';
 import Dean from '../../Images/Dean.jpeg';
