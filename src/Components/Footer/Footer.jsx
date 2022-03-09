@@ -8,8 +8,6 @@ function Footer() {
         <h4>Services</h4>
         <Link to='/'>To somewhere</Link>
         <Link to='/'>To somewhere</Link>
-        <Link to='/'>To somewhere</Link>
-        <Link to='/'>To somewhere</Link>
       </div>
       <div>
         <h4>Company</h4>
@@ -20,14 +18,9 @@ function Footer() {
         <h4>Support</h4>
         <Link to='/'>To somewhere</Link>
         <Link to='/'>To somewhere</Link>
-        <Link to='/'>To somewhere</Link>
       </div>
       <div>
         <h4>Address</h4>
-        <Link to='/'>To somewhere</Link>
-        <Link to='/'>To somewhere</Link>
-        <Link to='/'>To somewhere</Link>
-        <Link to='/'>To somewhere</Link>
         <Link to='/'>To somewhere</Link>
         <Link to='/'>To somewhere</Link>
       </div>
