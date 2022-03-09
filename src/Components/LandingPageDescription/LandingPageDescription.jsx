@@ -1,3 +1,5 @@
+import './LandingPageDescription.css';
+
 function LandingPageDescription() {
   return (
     <section className='Description'>
