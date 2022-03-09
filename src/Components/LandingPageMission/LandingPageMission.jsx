@@ -11,11 +11,7 @@ function LandingPageMission() {
           elementum amet tempus, vivamus finibus parturient nunc dis augue
           sollicitudin aliquet lectus natoque. Facilisi morbi maximus dictum
           augue varius mauris accumsan netus eu conubia, phasellus sociosqu
-          curae nec platea erat ipsum vitae eleifend. Mauris inceptos tortor
-          velit gravida ligula aliquet malesuada turpis facilisis justo risus
-          blandit nulla tempus maecenas conubia himenaeos, quisque platea
-          imperdiet pellentesque litora scelerisque penatibus sagittis iaculis
-          dictum a ante sollicitudin ultrices quam.
+          curae nec platea erat ipsum vitae eleifend.
         </p>
         <button>CONTACT AN EXPERT</button>
       </div>

@@ -27,3 +27,29 @@
   width: 50rem;
   border-radius: 1rem;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 780px) {
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 430px) {
+  .Mission {
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .Mission_Container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Mission img {
+    width: 15rem;
+  }
+}
